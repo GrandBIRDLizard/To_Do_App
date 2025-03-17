@@ -48,7 +48,7 @@ def main():
         elif choice == "2":
             task = input("Enter the task: ")
             category = input("Enter the category: (default: general) ") or "general"
-            deadline = input("Enter the deadline: (YYY-MM-DD, optional) ")
+            deadline = input("Enter the deadline: (YYYY-MM-DD, optional) ")
             priority = input("Enter the priority: (low, medium high; default: medium ") or "medium"
             add_task(tasks, task, category, deadline, priority)
         elif choice == "3":
